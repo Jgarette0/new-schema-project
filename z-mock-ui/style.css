@@ -1,0 +1,9 @@
+.search-container{
+  float: right;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 8px 6px;
+  text-decoration: none;
+  z-index: 120;
+}

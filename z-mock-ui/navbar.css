@@ -1,0 +1,75 @@
+
+body{
+  background-color: #0F0C0C;
+  margin: 0;
+  font-family:Arial, Helvetica, sans-serif;
+  height: 2000px;
+}
+
+.navbar {
+  background-color: #F9F4F4;
+  overflow: hidden;
+  transition: top 0.3s;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: right;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 8px 6px;
+  text-decoration: none;
+}
+
+.content {
+  padding: 15px;
+  margin-top: 60px;
+
+}
+#profileBtn{
+  border:none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.account-list{
+  margin: auto;
+  color: #F9F4F4;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  
+}
+
+#theDialog{
+  background-color: #b6b6b6;
+  z-index: 100;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-top: 40px;
+  border:none;
+  border-radius: 10px;
+}
+
+.account-list button{
+  background-color: #24242b;
+  color: #E5E1E1;
+  border-radius: 5px;
+  border:none;
+  font-family: Helvetica, sans-serif;
+  padding: 4px 6px;
+  margin-top: 5px;
+  text-align: center;
+}#acc1{
+  padding-right:22px ;
+  
+}
+#acc3{
+  padding-right:16px ;
+}
+
